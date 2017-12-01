@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BD5222B41FD1C06B00FB16E7 /* DataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5222B21FD1C06B00FB16E7 /* DataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD5222BB1FD1C09C00FB16E7 /* DataKitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5222BA1FD1C09C00FB16E7 /* DataKitGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD5222AF1FD1C06B00FB16E7 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5222B21FD1C06B00FB16E7 /* DataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataKit.h; sourceTree = "<group>"; };
 		BD5222B31FD1C06B00FB16E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5222BA1FD1C09C00FB16E7 /* DataKitGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataKitGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				BD5222B21FD1C06B00FB16E7 /* DataKit.h */,
 				BD5222B31FD1C06B00FB16E7 /* Info.plist */,
+				BD5222BA1FD1C09C00FB16E7 /* DataKitGenerator.swift */,
 			);
 			path = DataKit;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					BD5222AE1FD1C06B00FB16E7 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5222BB1FD1C09C00FB16E7 /* DataKitGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		BD5222B81FD1C06B00FB16E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.scopus.DataKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		BD5222B91FD1C06B00FB16E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
