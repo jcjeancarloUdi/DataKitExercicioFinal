@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD45ED391FD5B282005FDFF1 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45ED381FD5B281005FDFF1 /* DataStore.swift */; };
 		BD5222B41FD1C06B00FB16E7 /* DataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5222B21FD1C06B00FB16E7 /* DataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD5222BB1FD1C09C00FB16E7 /* DataKitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5222BA1FD1C09C00FB16E7 /* DataKitGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD45ED381FD5B281005FDFF1 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		BD5222AF1FD1C06B00FB16E7 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5222B21FD1C06B00FB16E7 /* DataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataKit.h; sourceTree = "<group>"; };
 		BD5222B31FD1C06B00FB16E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				BD5222B21FD1C06B00FB16E7 /* DataKit.h */,
 				BD5222B31FD1C06B00FB16E7 /* Info.plist */,
 				BD5222BA1FD1C09C00FB16E7 /* DataKitGenerator.swift */,
+				BD45ED381FD5B281005FDFF1 /* DataStore.swift */,
 			);
 			path = DataKit;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5222BB1FD1C09C00FB16E7 /* DataKitGenerator.swift in Sources */,
+				BD45ED391FD5B282005FDFF1 /* DataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
